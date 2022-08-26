@@ -1,0 +1,22 @@
+{
+  "canAbandon": true,
+  "candrop": true,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/arms/Staff/mofazhang.png",
+  "itemname": "item_staff",
+  "mesh": "asset/arms/Staff/hunter_fazhang.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/fireball",
+    "myplugin/ice"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

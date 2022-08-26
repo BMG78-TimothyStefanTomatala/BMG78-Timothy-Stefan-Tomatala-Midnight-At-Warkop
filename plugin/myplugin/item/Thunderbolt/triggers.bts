@@ -1,0 +1,6 @@
+REMOVE_ITEM_AT_COUNT {
+}
+
+USE_ITEM {
+	AddSkill(entity = $obj1, name = "myplugin/lightning ball")
+}

@@ -1,0 +1,4 @@
+HIT_ENTITY {
+	Damage(damage = 9, entity = $obj1)
+	ConsumeItem2(entity = $obj2, item = "myplugin/4f8e9e37-0903-4f41-a964-bdee4dc6f2b9", num = 1, reason = "")
+}

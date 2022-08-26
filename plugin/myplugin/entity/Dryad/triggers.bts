@@ -1,0 +1,9 @@
+ENTITY_DIE {
+	SpawnItemToWorld(
+		count = 2,
+		fullName = "myplugin/money",
+		map = $map,
+		pos = GetEntityPosition(entity = $obj1),
+		time = 200
+	)
+}

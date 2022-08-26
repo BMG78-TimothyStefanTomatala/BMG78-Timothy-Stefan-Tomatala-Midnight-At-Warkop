@@ -1,0 +1,5 @@
+PART_CREATED {
+	StartTimer2(interval = 400, time = 1, timer = "") {
+		DestoryPart(part = $part)
+	}
+}

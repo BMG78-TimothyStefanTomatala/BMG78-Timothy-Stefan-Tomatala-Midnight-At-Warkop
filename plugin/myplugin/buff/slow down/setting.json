@@ -1,0 +1,50 @@
+{
+  "addCollision": 0,
+  "antiGravity": 0,
+  "continueDamage": 0,
+  "continueHeal": 0,
+  "damage": 0,
+  "damagePct": 0,
+  "deadRemove": false,
+  "deDmgPct": 0,
+  "dropDamageRatio": 0,
+  "dropDamageStart": 0,
+  "effect": {
+    "effect": "asset/effect/ice/sots208_decelerate_3.effect",
+    "once": false,
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 0.4,
+      "y": 0.4,
+      "z": 0.4
+    },
+    "selfOnly": false,
+    "yaw": 0
+  },
+  "fixTime": "reset",
+  "gravity": 0,
+  "hide": 0,
+  "jumpSpeed": 0,
+  "maxHp": 0,
+  "moveAcc": 0,
+  "moveFactor": 0,
+  "moveSpeed": -0.1,
+  "needSave": false,
+  "reachDistance": 0,
+  "skin": [],
+  "sound": {
+    "loop": true,
+    "multiPly": 1,
+    "path": "asset/music/ice.mp3",
+    "selfOnly": false,
+    "sound": "@music/ice.mp3",
+    "volume": 1
+  },
+  "sync": "all",
+  "unassailable": 0,
+  "undamageable": 0
+}

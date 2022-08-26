@@ -1,0 +1,19 @@
+ENTITY_HITTED {
+	CreatePartByPartStorage(id = "8775825161894690817", map = "map001", pos = { x = -219.362, y = 1.587, z = -60.874 })
+	CreatePartByPartStorage(id = "8775898530770993153", map = "map001", pos = GetEntityPosition(entity = $obj1))
+	StartTimer2(interval = 400, time = 1, timer = "") {
+		If (GetEntityCurHp(entity = $obj1) == 1) {
+			SetEntityPosition(
+				entity = $obj1,
+				map = "map001",
+				pos = {
+					x = -215.189575195312,
+					y = 0.740228452682495,
+					z = -59.4375343322754
+				},
+				rp = 90,
+				ry = 0
+			)
+		}
+	}
+}

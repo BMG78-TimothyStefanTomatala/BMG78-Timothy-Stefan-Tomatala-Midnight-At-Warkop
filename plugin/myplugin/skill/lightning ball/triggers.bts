@@ -1,0 +1,3 @@
+SKILL_CAST {
+	RemoveSkill(entity = $obj1, name = "myplugin/lightning ball")
+}

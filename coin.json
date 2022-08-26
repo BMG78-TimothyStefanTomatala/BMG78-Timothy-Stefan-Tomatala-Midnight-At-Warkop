@@ -1,0 +1,10 @@
+[
+  {
+    "coinName": "money",
+    "item": {
+      "name": "myplugin/money",
+      "type": "Item"
+    },
+    "showUi": false
+  }
+]

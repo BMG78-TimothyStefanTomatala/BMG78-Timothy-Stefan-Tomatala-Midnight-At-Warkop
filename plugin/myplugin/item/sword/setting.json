@@ -1,0 +1,33 @@
+{
+  "canAbandon": true,
+  "candrop": true,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "handBuff": "myplugin/hand held",
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/arms/sword/icon2.png",
+  "itemname": "item_sword",
+  "matItem_third": {
+    "rotateX": 90,
+    "rotateY": 90,
+    "rotateZ": 0,
+    "scale": 0.85,
+    "translate": {
+      "x": 0,
+      "y": 0,
+      "z": 0.1
+    }
+  },
+  "mesh": "asset/arms/sword/g2030_weapon_7_1.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/Normal Attack"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

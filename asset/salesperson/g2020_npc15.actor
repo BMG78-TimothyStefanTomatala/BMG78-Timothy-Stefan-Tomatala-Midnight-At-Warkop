@@ -1,0 +1,118 @@
+<ActorTemplates>
+	<ActorTemplate TextHeight="0" SoundName5="" WoundBone="" Volume="0.8" SelectedRingSize="1" IsShowShadow="true" SoundName4="" Alpha="1" WoundAngle="25" AttackScale="1" Originalscale="1 1 1" Skeleton="boy_01.skel" IntervalTime="2" SoundName2="" SoundName3="" name="111.actor" MinDistance="1" SoundName1="" SoundFileNum="0" MaxDistance="16">
+		<BodyParts>
+			<BodyPart MasterName="clothes_pants" ColorParams="1 1 1 1" DefaultUse="true" EdgeColor="1 1 1 1" SlaveName="2">
+				<Skin SpecularStrength="1.0" UVSpeed="0 0" DiscardAlpha="0" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" SpecularCoef="0.15" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" EdgeColor="1.0 0 0 1.0" LocalBrightnessScale="1.0" UseBloom="false" OverlayColor="1.0 1.0 1.0 1.0" type_name="02_trousers_boy" MeshName="asset/salesperson/02_trousers_boy.skin" UseEdge="false" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseTransparentNearestSlice="false"/>
+			</BodyPart>
+			<BodyPart MasterName="clothes_tops" ColorParams="1 1 1 1" DefaultUse="true" EdgeColor="1 1 1 1" SlaveName="clothes_tops_2">
+				<Skin SpecularStrength="1.0" UVSpeed="0 0" DiscardAlpha="0" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" SpecularCoef="0.15" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" EdgeColor="1.0 0 0 1.0" LocalBrightnessScale="1.0" UseBloom="false" OverlayColor="1.0 1.0 1.0 1.0" type_name="02_trunk_boy" MeshName="asset/salesperson/02_trunk_boy.skin" UseEdge="false" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseTransparentNearestSlice="false"/>
+			</BodyPart>
+			<BodyPart MasterName="custom_face" ColorParams="1 1 1 1" DefaultUse="true" EdgeColor="1 1 1 1" SlaveName="12">
+				<StaticMesh DiscardAlpha="0" type_name="12_face_girl" LocalAlpha="1">
+					<SpecularStrength value="1.0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<Position_X value="0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<SocketName value="s_head"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<pitch value="0"/>
+					<Position_Y value="0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseEdge value="false"/>
+					<UseBloom value="false"/>
+					<SpecularCoef value="0.15"/>
+					<UseTransparentNearestSlice value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+					<UseReflect value="false"/>
+					<UseOriginalcolor value="false"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<FileName value="asset/salesperson/12_face_girl.mesh"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="custom_hair" ColorParams="1 1 1 1" DefaultUse="true" EdgeColor="1 1 1 1" SlaveName="11">
+				<Skin SpecularStrength="1.0" UVSpeed="0 0" DiscardAlpha="0" UseOriginalcolor="false" UseOverlayColorReplaceMode="false" SpecularCoef="0.15" SpecularColor="1.0 1.0 1.0 1.0" LocalAlpha="1" EdgeColor="1.0 0 0 1.0" LocalBrightnessScale="1.0" UseBloom="false" OverlayColor="1.0 1.0 1.0 1.0" type_name="11_hair_girl" MeshName="asset/salesperson/11_hair_girl.skin" UseEdge="false" UseReflect="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseTransparentNearestSlice="false"/>
+			</BodyPart>
+			<BodyPart MasterName="custom_shoes" ColorParams="1 1 1 1" DefaultUse="true" EdgeColor="1 1 1 1" SlaveName="38">
+				<StaticMesh DiscardAlpha="0" type_name="37_shoes_boy_l" LocalAlpha="1">
+					<SpecularStrength value="1.0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<Position_X value="0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<SocketName value="s_foot_l"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<pitch value="0"/>
+					<Position_Y value="0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseEdge value="false"/>
+					<UseBloom value="false"/>
+					<SpecularCoef value="0.15"/>
+					<UseTransparentNearestSlice value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+					<UseReflect value="false"/>
+					<UseOriginalcolor value="false"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<FileName value="asset/salesperson/37_shoes_boy_l.mesh"/>
+				</StaticMesh>
+				<StaticMesh DiscardAlpha="0" type_name="37_shoes_boy_r" LocalAlpha="1">
+					<SpecularStrength value="1.0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<Position_X value="0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<SocketName value="s_foot_r"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<pitch value="0"/>
+					<Position_Y value="0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseEdge value="false"/>
+					<UseBloom value="false"/>
+					<SpecularCoef value="0.15"/>
+					<UseTransparentNearestSlice value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+					<UseReflect value="false"/>
+					<UseOriginalcolor value="false"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<FileName value="asset/salesperson/37_shoes_boy_r.mesh"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="boy_stand05.anim"/>
+			<Anim Name="christmas_wave_boy.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation Name="boy_stand05.anim" Length="2.033" Channel="lower" FadeTime="0.05" TimeScale="1" BeginTime="0" Times="-1"/>
+			</Skill>
+			<Skill Name="idle_1" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation Name="christmas_wave_boy.anim" Length="6.7" Channel="" FadeTime="0.25" TimeScale="1" BeginTime="0" Times="-1"/>
+				<Effect>
+					<BeginTime value="0"/>
+					<CycleTime value="-1"/>
+					<type_name value="30gantanhao_m"/>
+					<Position_Y value="1.41131"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<TimeScale value="1"/>
+					<Times value="1"/>
+					<Position_X value="-0.0354224"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<SocketName value="bip01"/>
+					<FollowActor value="true"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<FileName value="30gantanhao_m.effect"/>
+				</Effect>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

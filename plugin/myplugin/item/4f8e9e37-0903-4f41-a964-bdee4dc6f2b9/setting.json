@@ -1,0 +1,21 @@
+{
+  "canAbandon": false,
+  "candrop": true,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/Texture/clipart1342417.png",
+  "itemname": "item_4f8e9e37-0903-4f41-a964-bdee4dc6f2b9",
+  "mesh": "asset/Mesh/Blue Horned Diamond Monster/zuanshijingling.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/b116fe0a-fbae-45dd-9adc-926da0842b87"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

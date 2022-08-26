@@ -1,0 +1,19 @@
+{
+  "canAbandon": true,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": true,
+  "dropSpeed": 0.2,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/money/Copper coin.png",
+  "itemname": "item_money",
+  "mesh": "asset/money/g2030_build_jinbi.mesh",
+  "needSave": false,
+  "skill": [],
+  "stack_count_max": 99,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

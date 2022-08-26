@@ -1,0 +1,11 @@
+SKILL_CAST {
+	If ($obj1.Normal_Attack) {
+		StartTimer2(interval = 24, time = 1, timer = "") {
+			StartTimer2(interval = 20, time = 1, timer = "") {
+				$obj1.Normal_Attack = not $obj1.Normal_Attack
+			}
+			AddEntityBuff(buffTime = 26, cfg = "myplugin/Normal Attack2", entity = $obj1)
+		}
+		$obj1.Normal_Attack = not $obj1.Normal_Attack
+	}
+}
